@@ -83,6 +83,7 @@
             this.textBoxNumberSecond.Name = "textBoxNumberSecond";
             this.textBoxNumberSecond.Size = new System.Drawing.Size(115, 20);
             this.textBoxNumberSecond.TabIndex = 21;
+            this.textBoxNumberSecond.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNumberSecond_KeyPress);
             // 
             // label1
             // 
@@ -98,6 +99,7 @@
             this.textBoxNumberFirst.Name = "textBoxNumberFirst";
             this.textBoxNumberFirst.Size = new System.Drawing.Size(115, 20);
             this.textBoxNumberFirst.TabIndex = 10;
+            this.textBoxNumberFirst.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNumberFirst_KeyPress);
             // 
             // panel1
             // 

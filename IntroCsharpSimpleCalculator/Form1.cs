@@ -46,6 +46,16 @@ namespace IntroCsharpSimpleCalculator
             labelResultCalc.Text = sq.Multiplying(x, y).ToString();
         }
 
+        private void textBoxNumberFirst_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            labelShowPanel.Text = textBoxNumberFirst.Text;
+        }
+
+        private void textBoxNumberSecond_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            labelShowPanel.Text = textBoxNumberSecond.Text;
+        }
+
         private void buttonDividing_Click(object sender, EventArgs e)
         {
             Calculate sq = new Calculate();
